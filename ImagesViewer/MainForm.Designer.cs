@@ -29,17 +29,16 @@ namespace ImagesViewer
 		/// </summary>
 		private void InitializeComponent()
 		{
-            this.SuspendLayout();
-            // 
-            // MainForm
-            // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
-            this.ClientSize = new System.Drawing.Size(1262, 673);
-            this.Name = "MainForm";
-            this.Text = "Images Viewer";
-            this.ResumeLayout(false);
+			this.SuspendLayout();
+			// 
+			// MainForm
+			// 
+			this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+			this.ClientSize = new System.Drawing.Size(800, 450);
+			this.Name = "MainForm";
+			this.Text = "Images Viewer";
+			this.ResumeLayout(false);
 
 		}
 
